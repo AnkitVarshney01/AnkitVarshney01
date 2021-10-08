@@ -1,0 +1,38 @@
+body {
+  background-color: #eaf6f6;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 3%;
+  height: 0px;
+}
+h1 {
+  color: #66bfbf;
+  text-shadow: 1.5px 1.5px greenyellow;
+  text-decoration: underline;
+  font-family: "Lucida Handwriting";
+}
+h1:hover {
+  color: rebeccapurple;
+}
+h3 {
+  color: #66bfbf;
+  font-family: "lemon milk", Courier, monospace;
+}
+h3:hover {
+  color: red;
+  font-family: "lemon milk", Courier, monospace;
+  transition: color 0.2s ease;
+}
+
+.Main-Picture {
+  border-radius: 100%;
+  transition: transform 0.5s ease;
+}
+
+img:hover {
+  transform: scale(1.15);
+}
